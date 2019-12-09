@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tabber</name>
+    </assembly>
+    <members>
+        <member name="T:Tabber.TabberControl">
+            <summary>
+            Drag tab control
+            </summary>
+        </member>
+        <member name="P:Tabber.TabberControl.Pinned">
+            <summary>
+            Will hold the last tab from dragging.
+            </summary>
+        </member>
+        <member name="F:Tabber.TabberControl.PinnedProperty">
+            <summary>
+            Will hold the last tab from dragging.
+            </summary>
+        </member>
+        <member name="T:Tabber.ShadowTabberItem">
+            <summary>
+            Drag tab item shadow
+            </summary>
+        </member>
+        <member name="T:Tabber.TabberItem">
+            <summary>
+            Drag tab item
+            </summary>
+        </member>
+        <member name="E:Tabber.TabberItem.DragPressed">
+            <summary>
+            Will be called when tab should start to drag.
+            </summary>
+        </member>
+        <member name="E:Tabber.TabberItem.DragReleased">
+            <summary>
+            Will be called when tab should end to drag.
+            </summary>
+        </member>
+        <member name="E:Tabber.TabberItem.Closing">
+            <summary>
+            Will be called when the tab tries to close.
+            </summary>
+        </member>
+        <member name="P:Tabber.TabberItem.Pin">
+            <summary>
+            Hold this tab pinned separate from unpinned. 
+            </summary>
+        </member>
+    </members>
+</doc>
